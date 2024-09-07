@@ -1,4 +1,7 @@
 package com.example.demobancobisa.repository;
 
-public interface AutorRepository extends org.springframework.data.jpa.repository.JpaRepository<com.example.demobancobisa.model.Autor, java.lang.Long> {
+import com.example.demobancobisa.model.Autor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AutorRepository extends JpaRepository<Autor, Long> {
 }

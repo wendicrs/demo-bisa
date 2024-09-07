@@ -1,4 +1,7 @@
 package com.example.demobancobisa.repository;
 
-public interface HistorialBlogRepository extends org.springframework.data.jpa.repository.JpaRepository<com.example.demobancobisa.model.HistorialBlog, java.lang.Long> {
+import com.example.demobancobisa.model.HistorialBlog;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface HistorialBlogRepository extends JpaRepository<HistorialBlog, Long> {
 }

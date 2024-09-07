@@ -26,7 +26,3 @@ Este proyecto es una aplicación de gestión de blogs basada en Spring Boot con 
 ## Instalación y ejecución
 
 ### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/blog-application.git
-cd blog-application
